@@ -1,0 +1,218 @@
+{
+  "steps": {
+    "registration": "Реєстрація"
+  },
+  "location-settings": {
+    "add-range": "Додати кількість гостей",
+    "basic-settings": "Базові налаштування",
+    "hotel-name": "Назва готелю чи апартаментів",
+    "hotel-name-placeholder": "напр. Затишна Хатина",
+    "google-location": "Адреса з Google Maps",
+    "google-location-label": "Як дістати адресу?",
+    "continue": "Продовжити",
+    "upload-title": "Завантажте фото готелю",
+    "price-and-conditions-title": "Ціни та умови",
+    "change-password": "Змінити пароль",
+    "number-of-guests": "Кількість гостей",
+    "dynamic-prices": "Динамічні ціни в залежності від кількості гостей",
+    "info-description": "У вас буде змога встановити різні ціни після реєстрації для окремих днів та місяців.",
+    "hrn": "грн.",
+    "price-per-night": "Загальна ціна проживання",
+    "success-upload": "Файл успішно завантажено",
+    "failed-upload": "Файл не завантажено",
+    "limited-amount-upload": "Неможливо завантажити більше 1 фото",
+    "limited-weight-upload": "Файл повинен бути менше ніж 5 МБ",
+    "subtitle-upload": "JPG, PNG / Макс 1 фото / Мін 340px x 600px / Макс 5 МБ",
+    "failed-compress-image": "Помилка при стисненні зображення",
+    "from": "від",
+    "to": "до",
+    "go-back": "Назад",
+    "close": "Зберегти",
+    "delete": "Видалити",
+    "conditions": "Умови",
+    "placeholder": {
+      "price": "Загальна ціна проживання",
+      "number-of-guests": "Максимальна місткість гостей"
+    }
+  },
+  "error": {
+    "number-of-guests": {
+      "pattern": "Лише цілі, додатні числа",
+      "required": "Введіть кількість гостей"
+    },
+    "price-per-night": {
+      "required": "Введіть загальну ціну проживання",
+      "pattern": "Лише цілі, додатні числа"
+    },
+    "email": {
+      "optionality": "Email є обов'язковим",
+      "required": "Email є обов'язковим",
+      "email": "Некоректний email"
+    },
+    "amount": {
+      "optionality": "Сумма є обов'язковою",
+      "required": "Сумма є обов'язковою",
+      "pattern": "Сумма повинна відповідати вказаному формату",
+      "min": "Сумма повинна бути не менше 100"
+    },
+    "password": {
+      "min": "Пароль має містити не менше 8 символів",
+      "matches": "Пароль має містити латинські літери, цифри та спеціальні символи",
+      "required": "Пароль є обов'язковим",
+      "optionality": "Поле є обов'язковим"
+    },
+    "repeatPassword": {
+      "oneOf": "Вказані паролі не співпадають",
+      "required": "Поле є обов'язковим",
+      "optionality": "Поле є обов'язковим"
+    },
+    "fullName": {
+      "optionality": "Ім'я та Прізвище є обов'язковим",
+      "required": "Ім'я та Прізвище є обов'язковим"
+    },
+    "phoneNumber": {
+      "optionality": "Номер телефону є обов'язковим",
+      "required": "Номер телефону є обов'язковим",
+      "matches": "Неправильний номер телефону"
+    },
+    "publicLabel": {
+      "required": "Назва готелю чи апартаментів є обовʼязковою",
+      "optionality": "Назва готелю чи апартаментів є обовʼязковою"
+    },
+    "images": {
+      "required": "Завантажте фото готелю",
+      "optionality": "Завантажте фото готелю"
+    },
+    "name": {
+      "required": "Назва сезону є обов'язковим",
+      "optionality": "Назва сезону є обов'язковим",
+      "nullable": "Назва сезону є обов'язковим"
+    },
+    "startDate": {
+      "required": "Початкова дата є обов'язковою",
+      "optionality": "Початкова дата є обов'язковою",
+      "nullable": "Початкова дата є обов'язковою"
+    },
+    "endDate": {
+      "required": "Кінцева дата є обов'язковою",
+      "optionality": "Кінцева дата є обов'язковою",
+      "nullable": "Кінцева дата є обов'язковою"
+    },
+    "googleMapAddress": {
+      "required": "Адреса з Google Maps є обовʼязковою",
+      "optionality": "Адреса з Google Maps є обовʼязковою",
+      "matches": "Введіть валідну адресу з Google Maps"
+    },
+    "checkinDate": {
+      "required": "Поле є обов'язковим",
+      "optionality": "Поле є обов'язковим",
+      "nullable": "Поле є обов'язковим"
+    },
+    "checkoutDate": {
+      "required": "Поле є обов'язковим",
+      "optionality": "Поле є обов'язковим",
+      "nullable": "Поле є обов'язковим"
+    },
+    "maxCountOfGuests": {
+      "required": "Максимальна місткість гостей є обов'язковою",
+      "optionality": "Максимальна місткість гостей є обов'язковим",
+      "typeError": "Максимальна місткість гостей повинна бути числом",
+      "min": "Максимальна місткість гостей повинна бути не менше 1"
+    },
+    "guest": {
+      "fullName": {
+        "required": "Повне ім'я є обов'язковим",
+        "optionality": "Повне ім'я є обов'язковим"
+      },
+      "email": {
+        "required": "Електронна пошта є обов'язковою",
+        "optionality": "Електронна пошта є обов'язковим",
+        "email": "Електронна пошта повинна бути дійсною"
+      },
+      "phoneNumber": {
+        "required": "Номер телефону є обов'язковим",
+        "optionality": "Номер телефону є обов'язковим",
+        "matches": "Неправильний номер телефону"
+      }
+    }
+  },
+  "auth-form": {
+    "password": "Пароль",
+    "name": "Прізвище та Ім'я",
+    "phone": "Номер телефону",
+    "google-sign-in": "Увійти з Google",
+    "google-sign-up": "Зареєструватись з Google",
+    "or": "Або",
+    "email-label": "Email",
+    "email-placeholder": "example@gmail.com",
+    "password-placeholder": "Вигадайте надійний пароль",
+    "fullName-placeholder": "Вкажіть ваше прізвище та ім'я",
+    "phoneNumber-placeholder": "+38 (000) 000-00-00",
+    "forgot-password": "Забули пароль?",
+    "agreement": "Я підтверджую, що ознайомився(-лася) з <a>{{privacy}}</a> та погоджуюся з <a>{{conditionUse}}</a>",
+    "privacy": "Політикою конфіденційності",
+    "conditionUse": "Умовами користування.",
+    "min-8-char": "Мінімум 8 символів",
+    "numbers-and-chars": "Має містити букви і літери",
+    "phone-number": "Номер телефону має відповідати українському формату",
+    "agreement-error": "Ви повинні погодитися з умовами користування"
+  },
+  "layout-pages": {
+    "profile": "Профіль",
+    "exit": "Вихід"
+  },
+  "sign-in": {
+    "title": "Вхід",
+    "btn-text": "Увійти"
+  },
+  "reset-password": {
+    "title": "Скидання паролю",
+    "description": "Будь ласка, введіть вашу адресу електронної пошти.\nВи отримаєте лист з посиланням на форму для зміни пароля.",
+    "btn-text": "Скинути пароль",
+    "email-placeholder": "example@gmail.com",
+    "back-home": "Повернутись на “Вхід”",
+    "send-email-success": "Посилання надіслано на пошту",
+    "send-email-text": "Ми відправили посилання для зміни пароля на вашу електронну адресу: <emailLink>{{ email }}</emailLink>",
+    "step-title": "Що робити далі?",
+    "step-check-email": "Перевірте свою пошту",
+    "step-click-link": "Перейдіть за посиланням",
+    "step-change-password": "Створіть новий пароль"
+  },
+  "set-password": {
+    "title": "Зміна пароля",
+    "new-password": "Новий пароль",
+    "confirm-password": "Повторіть пароль",
+    "btn-text": "Встановити новий пароль",
+    "decline": "Скасувати",
+    "main": "На головну",
+    "invalid-link-title": "Посилання недійсне",
+    "invalid-link-description": "Нам дуже шкода, але посилання для зміни пароля, за яким ви перейшли, більше не активне або недійсне.",
+    "step-invalid-title": "Це могло статися з кількох причин:",
+    "step-invalid-expired": "Термін дії посилання закінчився.",
+    "step-invalid-used": "Посилання вже було використано.",
+    "step-invalid-withdrawn": "Запит на зміну пароля було відкликано.",
+    "request-new-link": "Запросити нове посилання",
+    "success-title": "Пароль успішно змінено",
+    "success-description": "Тепер ви можете використовувати свій новий пароль для входу в систему.",
+    "step-success-title": "Рекомендації для збереження безпеки вашого облікового запису:",
+    "step-success-share": "Не діліться своїм паролем з іншими.",
+    "step-success-strong": "Використовуйте сильні паролі.",
+    "step-success-update": "Оновлюйте свій пароль регулярно."
+  },
+  "navigation": {
+    "calendar": "Календар",
+    "bookings": "Броні",
+    "guests": "Гості",
+    "settings": "Налашт."
+  },
+  "home": "Головна",
+  "sign-up": "Реєстрація",
+  "sign-up.btn-text": "Зареєструватись",
+  "sidebar-menu": {
+    "dashboard": "Календар",
+    "bookings": "Бронювання",
+    "guests": "Гості",
+    "reports": "Звіти"
+  },
+  "fiat": "грн."
+}

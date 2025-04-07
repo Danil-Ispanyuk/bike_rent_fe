@@ -1,0 +1,225 @@
+{
+  "steps": {
+    "registration": "Registration"
+  },
+  "location-settings": {
+    "add-range": "Add number of guest",
+    "basic-settings": "Basic settings",
+    "hotel-name": "Name of the hotel or apartments",
+    "hotel-name-placeholder": "e.g. Cozy Cottage",
+    "google-location": "Address from Google Maps",
+    "google-location-label": "How to get an address?",
+    "continue": "Continue",
+    "upload-title": "Upload hotel photo",
+    "price-and-conditions-title": "Price and conditions",
+    "change-password": "Change password",
+    "number-of-guests": "Number of guests",
+    "dynamic-prices": "Dynamic prices depending on the number of guests",
+    "info-description": "You will be able to set different prices for specific days and months after registration.",
+    "hrn": "hrn",
+    "price-per-night": "Price per night",
+    "success-upload": "File uploaded successfully",
+    "failed-upload": "File upload failed",
+    "limited-amount-upload": "Unable to upload more than 1 photos",
+    "limited-weight-upload": "File must be smaller than 5 MB!",
+    "subtitle-upload": "JPG, PNG / Max 1 photo / Min 340px x 600px / Max 5 MB",
+    "failed-compress-image": "Failed to compress image",
+    "from": "from",
+    "to": "to",
+    "go-back": "Go back",
+    "close": "Save",
+    "delete": "Delete",
+    "conditions": "Conditions",
+    "placeholder": {
+      "price": "Price per night",
+      "number-of-guests": "Max number of guests"
+    }
+  },
+  "error": {
+    "number-of-guests": {
+      "pattern": "Only natural numbers are allowed",
+      "required": "Number of guests is required"
+    },
+    "price-per-night": {
+      "required": "Price per night is required",
+      "pattern": "Only natural numbers are allowed"
+    },
+    "email": {
+      "optionality": "Email is required",
+      "required": "Email is required",
+      "email": "Email is invalid"
+    },
+    "password": {
+      "min": "Password must have at least 8 characters",
+      "matches": "Your password should contain both numbers and letters",
+      "required": "Password is required",
+      "optionality": "Password is required"
+    },
+    "repeatPassword": {
+      "oneOf": "The specified passwords do not match",
+      "required": "The field is required",
+      "optionality": "The field is required"
+    },
+    "fullName": {
+      "optionality": "Full name is required",
+      "required": "Full name is required"
+    },
+    "phoneNumber": {
+      "optionality": "Phone number is required",
+      "required": "Phone number is required",
+      "matches": "Must contain a Ukrainian phone number"
+    },
+    "publicLabel": {
+      "required": "The name of the hotel or apartments is required",
+      "optionality": "The name of the hotel or apartments is required"
+    },
+    "images": {
+      "required": "At least one photo is required",
+      "optionality": "At least one photo is required"
+    },
+    "name": {
+      "required": "Name of season is required",
+      "optionality": "Name of season is required",
+      "nullable": "Name of season is required"
+    },
+    "startDate": {
+      "required": "Start date is required",
+      "optionality": "Start date is required",
+      "nullable": "Start date is required"
+    },
+    "endDate": {
+      "required": "End date is required",
+      "optionality": "End date is required",
+      "nullable": "End date is required"
+    },
+    "googleMapAddress": {
+      "required": "The address from Google Maps is required",
+      "optionality": "The address from Google Maps is required",
+      "matches": "Please enter a valid address from Google Maps"
+    },
+    "checkinDate": {
+      "required": "The field is required",
+      "optionality": "The field is required",
+      "nullable": "The field is required"
+    },
+    "checkoutDate": {
+      "required": "The field is required",
+      "optionality": "The field is required",
+      "nullable": "The field is required"
+    },
+    "maxCountOfGuests": {
+      "required": "The maximum number of guests is required",
+      "optionality": "The maximum number of guests is required",
+      "typeError": "The maximum number of guests must be a number",
+      "min": "The maximum number of guests must be greater than 0"
+    },
+    "guest": {
+      "fullName": {
+        "required": "Full name is required",
+        "optionality": "Full name is required"
+      },
+      "email": {
+        "required": "Email is required",
+        "optionality": "Email is required",
+        "email": "Email is invalid"
+      },
+      "phoneNumber": {
+        "required": "Phone number is required",
+        "optionality": "Phone number is required",
+        "matches": "Must contain a Ukrainian phone number"
+      }
+    },
+    "totalGuests": {
+      "required": "Number of guests is required",
+      "optionality": "Number of guests is required",
+      "pattern": "Only natural numbers are allowed",
+      "min": "The number of guests must be greater than 0",
+      "typeError": "The number of guests must be a number"
+    },
+    "totalPrice": {
+      "required": "The total price of accommodation is mandatory",
+      "optionality": "The total price of accommodation is mandatory",
+      "pattern": "The total price of accommodation must correspond to the specified format",
+      "typeError": "The total price of accommodation must be a number",
+      "min": "The total price of accommodation must be greater than 0"
+    }
+  },
+  "auth-form": {
+    "password": "Password",
+    "name": "Full name",
+    "phone": "Phone number",
+    "google-sign-in": "Sign in with Google",
+    "google-sign-up": "Sign up with Google",
+    "or": "Or",
+    "email-label": "Email",
+    "email-placeholder": "Enter your email",
+    "password-placeholder": "Enter your password",
+    "fullName-placeholder": "Enter your full name",
+    "phoneNumber-placeholder": "Enter your phone number",
+    "forgot-password": "Forgot password?",
+    "agreement": "I confirm that I have familiarized myself with <a>{{privacy}}</a> and I agree with <a>{{conditionUse}}</a>",
+    "conditionUse": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "min-8-char": "Must be at least 8 characters",
+    "numbers-and-chars": "Must contain both numbers and letters",
+    "phone-number": "Phone number must be a valid Ukrainian format",
+    "agreement-error": "You must agree with the Privacy Policy"
+  },
+  "sign-in": {
+    "title": "Sign in",
+    "btn-text": "Sign In"
+  },
+  "navigation": {
+    "calendar": "Calendar",
+    "bookings": "Bookings",
+    "guests": "Guests",
+    "settings": "Settings"
+  },
+  "reset-password": {
+    "title": "Reset password",
+    "description": "Please enter your email address.\n You will receive an email with a link to a password change form.",
+    "btn-text": "Reset password",
+    "email-placeholder": "example@gmail.com",
+    "back-home": "Back to sign in",
+    "send-email-success": "The link has been sent to the mail",
+    "send-email-text": "We have sent a password reset link to your email address: <emailLink>{{ email }}</emailLink>",
+    "step-title": "What to do next?",
+    "step-check-email": "Check your email",
+    "step-click-link": "Follow the link",
+    "step-change-password": "Create a new password"
+  },
+  "set-password": {
+    "title": "Set new password",
+    "new-password": "New password",
+    "confirm-password": "Confirm new password",
+    "btn-text": "Set a new password",
+    "decline": "Decline",
+    "main": "Main",
+    "invalid-link-title": "Invalid link",
+    "invalid-link-description": "We're sorry, but the password reset link you followed is no longer active or is invalid.",
+    "step-invalid-title": "This could happen for several reasons:",
+    "step-invalid-expired": "The link has expired.",
+    "step-invalid-used": "The link has already been used.",
+    "step-invalid-withdrawn": "The request to change the password has been withdrawn.",
+    "request-new-link": "Request a new link",
+    "success-title": "Password changed successfully",
+    "success-description": "You can now use your new password to log in.",
+    "step-success-title": "Tips for keeping your account secure:",
+    "step-success-share": "Do not share your password with others.",
+    "step-success-strong": "Use strong passwords.",
+    "step-success-update": "Update your password regularly."
+  },
+  "home": "Home",
+  "sign-up": "Registration",
+  "sign-up_btn-text": "Registration",
+  "layout-pages": {
+    "profile": "Profile",
+    "exit": "Exit"
+  },
+  "sidebar-menu": {
+    "dashboard": "Calendar",
+    "bookings": "Bookings",
+    "guests": "Guests",
+    "reports": "Reports"
+  }
+}
