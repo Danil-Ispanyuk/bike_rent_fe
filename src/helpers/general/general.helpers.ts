@@ -1,3 +1,4 @@
+import dayjs from "dayjs";
 import { PhoneNumberUtil } from "google-libphonenumber";
 
 import { ScrollTypes } from "@/constants/global";
@@ -13,6 +14,14 @@ export const handleScroll = (type: ScrollTypes) => {
     mainBlock.classList.remove(styles["no-scroll"]);
   }
 };
+
+export const getCountOfDays = ({ fromDate, toDate }: { fromDate: string; toDate: string }) => {
+  const countOfHours = dayjs(toDate).diff(fromDate, "hours");
+  const days = Math.ceil(countOfHours / 24);
+  
+return days;
+};
+
 
 export const checkPhoneValidation = (value: string) => {
   if (value.length < 5) {

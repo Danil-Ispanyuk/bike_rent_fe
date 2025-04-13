@@ -70,6 +70,11 @@ export const ProfileDropDown: FC = () => {
     <DropDown
       menu={{
         items: [
+          {
+            key: 1,
+            onClick: () => navigate("/profile"),
+            label: renderItem("users", t("layout-pages.profile"))
+          },
           { key: 2, onClick: logout, label: renderItem("exit", t("layout-pages.exit")) }
         ]
       }}

@@ -9,3 +9,4 @@ export * from "./GoogleAuth/GoogleAuth";
 export * from "./MainLayoutFooter/MainLayoutFooter";
 export * from "./MainLayoutHeader/MainLayoutHeader";
 export * from "./ProfileDropDown/ProfileDropDown";
+export * from "./SidebarMenu/SidebarMenu";
