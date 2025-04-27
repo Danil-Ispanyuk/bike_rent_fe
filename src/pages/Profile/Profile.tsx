@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "antd";
 
 import { BlockContent } from "@/components/BlockContent/BlockContent";
+import { Payment } from "@/components/Payment/Payment";
 import { ProfileUserView } from "@/components/ProfileUserView/ProfileUserView";
 
 import { ROUTES } from "@/constants";
@@ -26,6 +27,7 @@ export const Profile = () => {
         </Button>
       </p>
       <BlockContent title="Profile" content={<ProfileUserView />} />
+      <BlockContent title="Profile" content={<Payment />} />
     </div>
   );
 };

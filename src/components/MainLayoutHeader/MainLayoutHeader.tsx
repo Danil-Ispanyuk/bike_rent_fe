@@ -18,7 +18,7 @@ import { RootState } from "@/store";
 const { Link } = Typography;
 const { Header } = Layout;
 
-const { ACTIVE_RENT, DASHBOARD } = ROUTES;
+const { ACTIVE_RENT, DASHBOARD, PROFILE } = ROUTES;
 
 export const MainLayoutHeader: FC = () => {
   const header = useSelector((state: RootState) => state.header);
@@ -29,6 +29,12 @@ export const MainLayoutHeader: FC = () => {
     enabled: !!user?.id,
     cacheTime: 0
   });
+
+  const balanceValue = useMemo(() => {
+    const convertToFloat = parseFloat(String((user?.balance || 0) / 100) || "0");
+
+    return convertToFloat.toFixed(2);
+  }, [user]);
 
   const isNavigation = header.navigation.title;
 
@@ -61,6 +67,7 @@ export const MainLayoutHeader: FC = () => {
       {handleNavigation}
 
       <div className={styles.content}>
+        <p onClick={() => navigate(PROFILE)} className={styles.balance}>Balance: {balanceValue}₴</p>
         <ProfileDropDown />
       </div>
     </Header>
